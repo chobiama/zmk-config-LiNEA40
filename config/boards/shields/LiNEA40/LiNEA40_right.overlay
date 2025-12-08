@@ -4,9 +4,9 @@
 /* ZIP Processor（テンポラリレイヤー無効化処理） */
 &zip_temp_layer {
     excluded-positions = <
-        18 // J
-        19 // K
-        20 // L
+        16 // J
+        17 // K
+        18 // L
     >;
 };
 
