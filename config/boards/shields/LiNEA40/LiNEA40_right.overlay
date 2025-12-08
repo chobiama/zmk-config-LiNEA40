@@ -1,4 +1,25 @@
+#include <input/processors.dtsi>
 #include "LiNEA40.dtsi"
+
+/* ZIP Processor（テンポラリレイヤー無効化処理） */
+&zip_temp_layer {
+    excluded-positions = <
+        18 // J
+        19 // K
+        20 // L
+    >;
+};
+
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 1 10000>;
+    };
+};
+
+
 &default_transform {
     col-offset = <6>;
 };
@@ -11,15 +32,6 @@
         , <&xiao_d 7 GPIO_ACTIVE_HIGH>  //col3-D7
         , <&gpio0 10 GPIO_ACTIVE_HIGH>  //col4-NFC2
         ;
-};
-
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-        input-processors = <&zip_temp_layer 1 10000>;
-    };
 };
 
 
