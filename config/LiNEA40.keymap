@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,
+            //スクロール方向を逆転,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -126,7 +126,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Win {
+        Win1 {
             bindings = <
 &kp Q      &kp W         &kp E               &kp R   &kp T                                      &kp Y        &kp U  &kp I            &kp O             &kp P
 &kp A      &kp S         &kp D               &kp F   &kp G                                      &kp H        &kp J  &kp K            &kp L             &kp RIGHT_SHIFT
