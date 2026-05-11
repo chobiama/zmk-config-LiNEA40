@@ -8,14 +8,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define Win 0
-#define Win_sub 1
-#define Mac 2
-#define Mac_sub 3
-#define iPad 4
-#define iPad_sub 5
-#define SymNum 6
-#define Func 7
+#define WIN 0
+#define WIN_SUB 1
+#define MAC 2
+#define MAC_SUB 3
+#define IPAD 4
+#define IPAD_SUB 5
+#define SYMNUM 6
+#define FUNC 7
 #define WIRELESS 8
 
 //mouse cursol
