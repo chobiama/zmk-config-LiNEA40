@@ -50,7 +50,7 @@
 
 &msc_input_listener {
     speed_up {
-        layers = <Func>;
+        layers = <FUNC>;
         input-processors = <&zip_wheel_scaler 3 1>; //スクロールを3倍速にする
     };
 };
