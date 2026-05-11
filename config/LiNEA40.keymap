@@ -60,7 +60,7 @@
         layers = <SYMNUM>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,
+            //スクロール方向を逆転,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -124,7 +124,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Win {
+        WIN {
             bindings = <
 &kp Q      &kp W         &kp E               &kp R   &kp T                                      &kp Y        &kp U  &kp I            &kp O             &kp P
 &kp A      &kp S         &kp D               &kp F   &kp G                                      &kp H        &kp J  &kp K            &kp L             &mt RIGHT_SHIFT MINUS
@@ -135,7 +135,7 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        Win_sub {
+        WIN_SUB {
             bindings = <
 &trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &trans         &trans
 &trans     &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
@@ -144,7 +144,7 @@
             >;
         };
 
-        Mac {
+        MAC {
             bindings = <
 &kp Q      &kp W         &kp E               &kp R   &kp T                                      &kp Y        &kp U  &kp I            &kp O             &kp P
 &kp A      &kp S         &kp D               &kp F   &kp G                                      &kp H        &kp J  &kp K            &kp L             &mt RIGHT_SHIFT MINUS
@@ -155,7 +155,7 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        Mac_sub {
+        MAC_SUB {
             bindings = <
 &trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &trans         &trans
 &trans     &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
@@ -164,7 +164,7 @@
             >;
         };
 
-        iPad {
+        IPAD {
             bindings = <
 &kp Q      &kp W         &kp E               &kp R   &kp T                                      &kp Y        &kp U  &kp I            &kp O             &kp P
 &kp A      &kp S         &kp D               &kp F   &kp G                                      &kp H        &kp J  &kp K            &kp L             &mt RIGHT_SHIFT MINUS
@@ -175,7 +175,7 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        iPad_sub {
+        IPAD_SUB {
             bindings = <
 &trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &trans         &trans
 &trans     &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
@@ -184,7 +184,7 @@
             >;
         };
 
-        SymNum {
+        SYMNUM {
             bindings = <
 &kp GRAVE      &kp EXCLAMATION  &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                               &kp FSLH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
 &kp TILDE      &kp AMPERSAND    &kp HASH      &kp LEFT_BRACE        &kp RIGHT_BRACE                                 &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
@@ -193,7 +193,7 @@
             >;
         };
 
-        Func {
+        FUNC {
             bindings = <
 &kp HOME  &trans          &trans          &trans           &trans                        &bootloader  &trans    &trans        &trans     &kp LS(LG(S))
 &kp TAB   &trans          &msc SCRL_UP    &trans           &trans                        &trans       &mkp MB1  &kp UP_ARROW  &mkp MB2   &trans
