@@ -60,7 +60,7 @@
         layers = <SYMNUM>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -152,6 +152,8 @@
 &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &kp NON_US_BACKSLASH
 &kp LCTRL       &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
             >;
+
+            sensor-bindings = <&mouse_scrl SCRL_RIGHT SCRL_LEFT>;
         };
 
         MAC {
@@ -172,6 +174,8 @@
 &trans     &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &trans
 &kp LCTRL  &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
             >;
+
+            sensor-bindings = <&mouse_scrl SCRL_RIGHT SCRL_LEFT>;
         };
 
         IPAD {
@@ -192,6 +196,8 @@
 &trans     &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &trans
 &kp LCTRL  &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
             >;
+
+            sensor-bindings = <&mouse_scrl SCRL_RIGHT SCRL_LEFT>;
         };
 
         SYMNUM {
