@@ -60,7 +60,7 @@
         layers = <SYMNUM>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -147,7 +147,7 @@
 
         WIN_SUB {
             bindings = <
-&trans          &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &kp F4         &trans
+&trans          &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &kp F4         &kp F5
 &trans          &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
 &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &kp NON_US_BACKSLASH
 &kp LCTRL       &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
@@ -169,7 +169,7 @@
 
         MAC_SUB {
             bindings = <
-&trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &trans         &trans
+&trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &kp F4         &kp F5
 &trans     &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
 &trans     &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &trans
 &kp LCTRL  &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
@@ -191,7 +191,7 @@
 
         IPAD_SUB {
             bindings = <
-&trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &trans         &trans
+&trans     &kp LC(LS(TAB))     &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                     &kp F1  &kp F2        &kp F3        &kp F4         &kp F5
 &trans     &kp LC(LG(LEFT))    &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp SPACE                         &kp F7  &kp LG(LEFT)  &kp LG(D)     &kp LG(RIGHT)  &kp LG(UP_ARROW)
 &trans     &kp LA(LEFT_ARROW)  &trans         &kp LA(RIGHT)      &kp LG(PERIOD)                    &kp F8  &trans        &kp LG(DOWN)  &trans         &trans
 &kp LCTRL  &trans              &trans         &trans             &trans          &trans    &trans  &trans                &trans        &trans         &trans
