@@ -60,7 +60,7 @@
         layers = <SYMNUM>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -142,7 +142,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LANG2  &trans  &lt 6 LANG1  &lt 1 SPACE    &kp BACKSPACE  &lt 7 ENTER         &lt 8 SEMICOLON  &kp SINGLE_QUOTE  &kp LEFT_ALT
             >;
 
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
 
         WIN_SUB {
@@ -164,7 +164,7 @@
 &kp LCTRL  &kp LEFT_WIN  &mt LEFT_ALT LANG2  &trans  &lt 6 LANG1  &lt 1 SPACE    &kp BACKSPACE  &lt 7 ENTER         &lt 8 SEMICOLON  &kp SINGLE_QUOTE  &kp ESCAPE
             >;
 
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
 
         MAC_SUB {
@@ -186,7 +186,7 @@
 &kp LCTRL  &kp LEFT_WIN  &mt LEFT_ALT LANG2  &trans  &lt 6 LANG1  &lt 1 SPACE    &kp BACKSPACE  &lt 7 ENTER         &lt 8 SEMICOLON  &kp SINGLE_QUOTE  &kp ESCAPE
             >;
 
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
 
         IPAD_SUB {
