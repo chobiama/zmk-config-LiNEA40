@@ -38,7 +38,8 @@ manifest:
 
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: v0.3-branch
+      revision: main
+#      revision: v0.3-branch
 
     - name: zephyr
       remote: cormoran
