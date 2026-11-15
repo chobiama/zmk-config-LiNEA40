@@ -111,6 +111,7 @@
 
     rotary_encoders0: rotary_encoders0 {
         compatible = "cormoran,physical-layout-rotary-encoders";
+        display-name = "Rotary Encoders";
         encoders = <&encoder0>;
     };
 
@@ -121,12 +122,4 @@
         y = <80>;
     };
 
-    touchpad0: touchpad0 {
-        compatible = "cormoran,physical-layout-touch-pad";
-        display-name = "Touch Pad";
-        width = <240>;
-        height = <180>;
-        x = <625>;
-        y = <180>;
-    };
 };
