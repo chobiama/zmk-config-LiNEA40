@@ -11,12 +11,17 @@
 include:
   - board: xiao_ble//zmk
     shield: LiNEA40_left rgbled_adapter
+    artifact-name: LiNEA40-left-xiao_ble
+
   - board: xiao_ble//zmk
     shield: LiNEA40_right rgbled_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: LiNEA40-right-xiao_ble
+
   - board: xiao_ble//zmk
     shield: settings_reset
+    artifact-name: settings-reset-xiao_ble
 
 # include:
 #   - board: seeeduino_xiao_ble
