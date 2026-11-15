@@ -60,7 +60,7 @@
         motion-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //MOT-D6
         res-cpi = <1000>;
         smart-mode;
-        invert-y;
+        //invert-y;
         invert-x;
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
