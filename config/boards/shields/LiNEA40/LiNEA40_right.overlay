@@ -63,7 +63,5 @@
         y-input-code = <INPUT_REL_X>;
 
         cpi = <1000>;
-        smart-mode;
-        invert-x;
     };
 };
