@@ -62,7 +62,7 @@
         x-input-code = <INPUT_REL_Y>;
         y-input-code = <INPUT_REL_X>;
 
-        res-cpi = <1000>;
+        cpi = <1000>;
         smart-mode;
         invert-x;
     };
