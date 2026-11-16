@@ -64,10 +64,6 @@ manifest:
       remote: cormoran
       revision: main
 
-    - name: zmk-feature-custom-settings
-      remote: cormoran
-      revision: main
-
     - name: zmk-feature-device-info
       remote: cormoran
       revision: main
